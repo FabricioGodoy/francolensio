@@ -31,7 +31,7 @@ export const HomePage = () => {
     },
     {
       title: 'iOS',
-      image: 'https://img.icons8.com/material-outlined/24/laptop.png', // URL de la imagen para iOS
+      image: 'https://img.icons8.com/material-rounded/24/smartphone.png', // URL de la imagen para iOS
       services: [
         'Diagnóstico de fallos.',
         'Reparación de Logic Board y Displays.',
@@ -45,7 +45,7 @@ export const HomePage = () => {
     },
     {
       title: 'Equipos Windows',
-      image: 'https://img.icons8.com/material-outlined/24/laptop.png', // URL de la imagen para Equipos Windows
+      image: 'https://img.icons8.com/ios-glyphs/30/windows-10.png', // URL de la imagen para Equipos Windows
       services: [
         'Diagnóstico de fallos.',
         'Reparación de Logic Board y Displays.',
@@ -59,7 +59,7 @@ export const HomePage = () => {
     },
     {
       title: 'Canales de Reparación',
-      image: 'https://img.icons8.com/material-outlined/24/laptop.png', // URL de la imagen para Equipos Windows
+      image: 'https://img.icons8.com/fluency-systems-regular/50/conference-call--v1.png', // URL de la imagen para Equipos Windows
       services: [
         'Atención personalizada.',
         'Venta de repuestos y accesorios.',
@@ -70,14 +70,14 @@ export const HomePage = () => {
     },
     {
       title: 'Empresas',
-      image: 'https://img.icons8.com/material-outlined/24/laptop.png', // URL de la imagen para Equipos Windows
+      image: 'https://img.icons8.com/ios/50/handshake--v1.png', // URL de la imagen para Equipos Windows
       services: [
         'Nos especializamos en brindar consultoría informática para Agencias de Medios, Espectáculos, Start ups entre otros del segmento SMB.'
       ]
     },
     {
       title: 'Mobilsentrix',
-      image: 'https://img.icons8.com/material-outlined/24/laptop.png', // URL de la imagen para Equipos Windows
+      image: 'https://img.icons8.com/sf-regular/48/search.png', // URL de la imagen para Equipos Windows
       services: [
         'Somos distribuidos de productos Ampsentrix & Mobile.'
       ]
