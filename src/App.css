@@ -8,7 +8,7 @@
 .contenedorPadreHomePage {
   display: grid;
   place-items: center;
-  margin-top: 70px; 
+  margin-top: 5px; 
   padding: 3em;
 }
 
@@ -191,6 +191,9 @@
   .divArticle {
     width: 100%; 
     margin-bottom: 1.5em;
+  }
+  .contenedorPadreHomePage{
+    padding: 1em;
   }
 }
 
