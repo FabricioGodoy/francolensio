@@ -13,7 +13,6 @@ export const NavBar = () => {
       <a href="/">
         <img src="../../img/logoAzul.jpg" alt="logo" className="logo" />
       </a>
-      <span className="lineaRoja" />
     </header>
   );
 };
