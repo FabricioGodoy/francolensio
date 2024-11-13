@@ -15,6 +15,7 @@ export const Footer = () => {
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
+          title="Mapa de ubicación de nuestra empresa"
         ></iframe>
       </div>
     </footer>
