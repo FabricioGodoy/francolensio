@@ -11,3 +11,16 @@
     border: none;
   }
   
+  .typingTitle2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px; /* Tamaño de la fuente */
+    color: #030303; /* Color de texto blanco */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #fff; 
+    margin-top: 0.5em;
+    display: inline-block;
+    margin-bottom: 1em;
+   
+  }

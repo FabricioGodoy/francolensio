@@ -134,7 +134,7 @@ export const HomePage = () => {
       title: 'Correo electrónico',
       image: 'https://img.icons8.com/ios/50/mail.png', 
       services: [
-        'contacto@simpletecno.com.ar'
+        'contacto@simple tecno.com.ar'
       ]
     },
     {

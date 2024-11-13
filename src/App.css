@@ -10,7 +10,7 @@
   display: grid;
   place-items: center;
   margin-top: 12vh; 
-  padding: 3em;
+  padding: 5em;
 }
 
 .imgContainer {
@@ -177,7 +177,9 @@
   width: calc(33.333% - 1.5em); 
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
   text-transform: none;
-  overflow: hidden;
+  overflow: hidden;    
+  white-space: break-spaces;
+  
 }
 
 /* Efecto de hover para los artículos */
