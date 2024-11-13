@@ -276,9 +276,10 @@
   }
 }
 
+
 @media (max-width: 650px){
   .divArticle {
-    width: 90%; 
+    width: 47%; 
     margin-bottom: 1.5em;
   }
   .divArticle2 {
@@ -299,5 +300,11 @@
     margin:auto ;
     justify-content:center;
     animation: typing2 2s steps(50, end) 2s, blink 0.5s step-end infinite alternate 2s, fadeIn 1s 2s forwards;
+  }
+}
+@media (max-width: 500px){
+  .divArticle {
+    width: 90%; 
+    margin-bottom: 1.5em;
   }
 }
