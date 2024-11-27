@@ -11,7 +11,7 @@ export const NavBar = () => {
   return (
     <header className="header">
       <a href="/">
-        <img src="../../img/logoBlanco2.jpg" alt="logo" className="logo" />
+        <img src="../../img/logoSinFondo.png" alt="logo" className="logo" />
       </a>
     </header>
   );

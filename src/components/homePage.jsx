@@ -23,8 +23,8 @@ const ServiceCard2 = ({ title, services, image }) => (
         let link;
         if (title === 'Correo electrónico') {
           link = `mailto:${service}`;
-        } else if (title === 'WhatsApp') {
-          link = `https://wa.me/+5491151010406`;
+        } else if (title === 'Teléfono') {
+          link = `tel:${service}`;
         } else if (title === 'Domicilio') {
           link = 'https://www.google.com/maps?q=Av.+Cabildo+2847,+Ciudad+Autónoma+de+Buenos+Aires';
         }
@@ -138,8 +138,8 @@ export const HomePage = () => {
       ]
     },
     {
-      title: 'WhatsApp',
-      image: 'https://img.icons8.com/ios-glyphs/30/whatsapp.png', 
+      title: 'Teléfono',
+      image: 'https://img.icons8.com/material-rounded/24/cell-phone.png', 
       services: [
         '11 5101 0406'
       ]
@@ -180,6 +180,10 @@ export const HomePage = () => {
           />
         ))}
       </div>
+      <a href="https://wa.me/+5491151010406" class="btn-flotante" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/office/40/whatsapp--v1.png" alt="wpp"></img>
+      </a>
+
     </div>
   );
 };
