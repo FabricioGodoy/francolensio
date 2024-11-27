@@ -1,5 +1,5 @@
 .footer {
-    padding: 20px;
+ /*    padding: 20px; */
     background-color: #f1f1f1;
     text-align: center;
   }
@@ -23,3 +23,70 @@
     margin-bottom: 1em;
    
   }
+
+  .headerFooter {
+   display: flex;
+    height: 15vh;
+    background-color: #172933;
+    display: flex;
+    align-items: center;
+   flex-direction: row-reverse;
+}
+.text-copy{
+  padding: 0.5em;
+  margin: 0.5em;
+  color: white;
+  width: 20vw;
+  text-align: justify;
+  font-size: 13px;
+  width: 15vw;
+  
+}
+
+/* Para el texto  */
+@media (max-width: 1500px) {
+  .text-copy {
+    width: 20vw;
+  }
+}
+@media (max-width: 1200px) {
+  .text-copy {
+      padding: 0;
+      font-size: 11px;
+      margin: 10px;
+      line-height: 1.3;
+      width: 20vw;
+
+  }
+}
+@media (max-width: 1100px) {
+  .text-copy {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text-copy {
+      width: 20vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .text-copy {
+   width: 25vw;
+
+}
+}
+
+@media (max-width: 700px) {
+  .text-copy {
+      width: 35vw;
+  }
+}
+@media (max-width: 550px) {
+  .text-copy {
+      width: 35vw;
+      font-size: 10px;
+      line-height: 1.3;
+  }
+}

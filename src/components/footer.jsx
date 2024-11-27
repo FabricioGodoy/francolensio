@@ -18,6 +18,12 @@ export const Footer = () => {
           title="Mapa de ubicación de nuestra empresa"
         ></iframe>
       </div>
+      <br/>
+
+        <div className="headerFooter">
+
+        <p className='text-copy'>Copyright © 2024 Simpletecno Todos los derechos reservados. Las marcas registradas y logotipos aquí mostrados son propiedad de sus respectivos dueños y son utilizadas únicamente con fines enunciativos e ilustrativos.</p>
+        </div>
     </footer>
   );
 };

@@ -11,12 +11,14 @@
   place-items: center;
   margin-top: 12vh; 
   padding: 5em;
+  justify-content: center;
 }
 
 .imgContainer {
   position: relative;
   display: inline-block;
-  width: 90vw; 
+  width: 95vw; 
+  margin: auto;
   height: auto;
   text-align: center;
 
@@ -99,17 +101,7 @@
   border-radius: 10px;
 
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color:#1c3a4bc0; /* azul con 0.7 de opacidad */
-  z-index: 1;
-  border-radius: 10px;
 
-}
 
 /* estilo para el titulo */
 /* Efecto de tipo de máquina de escribir para el título */
@@ -137,12 +129,14 @@
   gap: 1.5em; 
   justify-content: center; 
 }
+
 .ordenarArticle2 {
   display: flex;
   flex-wrap: nowrap; 
   gap: 1.5em; 
   justify-content: center; 
   width: 90vw;
+  color: black;
 }
 
 /* Estilo de cada artículo */
@@ -156,11 +150,12 @@
   justify-content: flex-start;
   align-items: center;
   padding: 0.5em;
-  line-height: 1;
+  line-height: 1.6;
   width: calc(33.333% - 1.5em); 
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
   text-transform: none;
   overflow: hidden;
+  transition:  0.5s;
 }
 
 .divArticle2 {
@@ -185,11 +180,25 @@
 /* Efecto de hover para los artículos */
 .divArticle:hover {
   transform: translateY(-5px); 
-  box-shadow: 0 10px 20px #1c3a4b
+  box-shadow: 0 10px 20px #1c3a4b;
+  background-color: #1c3a4b;
+
+}
+.divArticle,.divArticle2 {
+  transition: 0.3s;
+
+}
+.divArticle:hover ul,.divArticle:hover h3 {
+  color: WHITE;
+
 }
 .divArticle2:hover {
   transform: translateY(-5px); 
-  box-shadow: 0 10px 20px #1c3a4b
+  box-shadow: 0 10px 20px #1c3a4b;
+  background-color: #1c3a4b;
+}
+.divArticle2:hover ul,.divArticle2:hover h3 {
+  color: white;
 }
 
 /* Imagen del artículo */
@@ -265,6 +274,7 @@
   .divArticle {
     width: 40%; 
     margin-bottom: 1.5em;
+    line-height: 1.4;
   }
   .divArticle2 {
     width: 35%; 

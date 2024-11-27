@@ -19,6 +19,8 @@
     height: auto;
     padding: 3px;
     border-radius: 15px;
+    color: white;
+    /* border: solid 1px red; */
 }
 
 /* Para hacer el logo más grande en pantallas pequeñas */

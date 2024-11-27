@@ -23,8 +23,8 @@ const ServiceCard2 = ({ title, services, image }) => (
         let link;
         if (title === 'Correo electrónico') {
           link = `mailto:${service}`;
-        } else if (title === 'Teléfono') {
-          link = `tel:${service}`;
+        } else if (title === 'WhatsApp') {
+          link = `https://wa.me/+5491151010406`;
         } else if (title === 'Domicilio') {
           link = 'https://www.google.com/maps?q=Av.+Cabildo+2847,+Ciudad+Autónoma+de+Buenos+Aires';
         }
@@ -138,8 +138,8 @@ export const HomePage = () => {
       ]
     },
     {
-      title: 'Teléfono',
-      image: 'https://img.icons8.com/ios-glyphs/30/ringer-volume.png', 
+      title: 'WhatsApp',
+      image: 'https://img.icons8.com/ios-glyphs/30/whatsapp.png', 
       services: [
         '11 5101 0406'
       ]
@@ -155,7 +155,6 @@ export const HomePage = () => {
           <br />
           <p className='typingEffect-2'>Llevamos el concepto de <em>servicio</em> a otro nivel!</p>
         </div>
-      <div class="overlay"></div>
       </div>
 
       <h2 className="typingTitle">Nuestros servicios</h2>
