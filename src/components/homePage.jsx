@@ -28,7 +28,6 @@ const ServiceCard2 = ({ title, services, image }) => (
         } else if (title === 'Domicilio') {
           link = 'https://www.google.com/maps?q=Av.+Cabildo+2847,+Ciudad+Autónoma+de+Buenos+Aires';
         }
-
         return (
           <li key={index}>
             {link ? (
@@ -153,7 +152,7 @@ export const HomePage = () => {
         <div className="textOverlay">
           <div className="typingEffect">Soluciones Informáticas y Tecnológicas</div>
           <br />
-          <p className='typingEffect-2'>Llevamos el concepto de <em>servicio</em> a otro nivel!</p>
+          <p className='typingEffect-2'>¡Llevamos el concepto de <em>servicio</em> a otro nivel!</p>
         </div>
       </div>
 
@@ -164,7 +163,7 @@ export const HomePage = () => {
             key={index}
             title={service.title}
             services={service.services}
-            image={service.image} // Pasamos la URL de la imagen
+            image={service.image} 
           />
         ))}
       </div>
@@ -176,7 +175,7 @@ export const HomePage = () => {
             key={index}
             title={service.title}
             services={service.services}
-            image={service.image} // Pasamos la URL de la imagen
+            image={service.image} 
           />
         ))}
       </div>

@@ -14,16 +14,24 @@
     z-index: 1000;
 }
 
-.logo {
-    width: 20vw; /* Ajusta según el tamaño del log */
+
+ .logo {
+    width: 20vw;
     height: auto;
     padding: 3px;
+    margin: 0px 0px 0px 10px;
     border-radius: 15px;
-    /* color: white; */
-    /* border: solid 1px red; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: 3px solid #254252;;
+}
+.logo:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+    
 }
 
-/* Para hacer el logo más grande en pantallas pequeñas */
 @media (max-width: 1200px) {
     .logo {
         width: 25vw;

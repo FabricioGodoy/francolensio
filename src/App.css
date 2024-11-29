@@ -176,6 +176,10 @@
   text-align: center;
   
 }
+.divArticle2 li a[href^="mailto:"] {
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+}
 
 /* Efecto de hover para los artículos */
 .divArticle:hover {
@@ -253,8 +257,8 @@
 /* boton flotante wpp */
 
 .btn-flotante {
-  position: fixed; /* Fijo en la pantalla */
-  bottom: 20px; /* Distancia desde la parte inferior */
+  position: fixed; 
+  bottom: 20px; 
   right: 20px; /* Distancia desde el lado derecho */
   background-color: #25d366; /* Color de fondo típico de WhatsApp */
   color: white; /* Color del texto */
@@ -275,11 +279,36 @@
 /* fin boton flotante wpp */
 
 
+@media (max-width: 1500px) {
+  .divArticle2 li a[href^="mailto:"] {
+   font-size: 19px; 
+  }
+}
+@media (max-width: 1400px) {
+  .divArticle2 li a[href^="mailto:"] {
+   font-size: 18px; 
+  }
+}
+@media (max-width: 1350px) {
+  .divArticle2 li a[href^="mailto:"] {
+   font-size: 17px; 
+  }
+}
+@media (max-width: 1300px) {
+  .divArticle2 li a[href^="mailto:"] {
+   font-size: 15px; 
+  }
+}
+
 @media (max-width: 1000px) {
   .ordenarArticle2{
     flex-wrap: wrap;
     gap: 1;
   }
+  .divArticle2 li a[href^="mailto:"] {
+    font-size: 16px; 
+   }
+
 }
 
 @media (max-width: 950px) {
@@ -293,6 +322,15 @@
   .typingEffect-2 {
     font-size: 18px;
   }
+  .divArticle2 li a[href^="mailto:"] {
+    font-size: 15px; 
+   }
+}
+
+@media (max-width: 860px) {
+  .divArticle2 li a[href^="mailto:"] {
+    font-size: 13px; 
+   }
 }
 
 @media (max-width: 768px) {
@@ -309,6 +347,10 @@
     padding: 1em;
     margin-top: 20vh;
   }
+  .typingTitle{
+    font-size: 30px;
+  }
+  
 }
 
 
@@ -322,12 +364,15 @@
     margin-bottom: 1.5em;
   }
 
+  
+
   .typingEffect{
     display: flex;
     flex-wrap: wrap;
     margin:auto ;
     justify-content:center;
     animation: typing 2s steps(30, end), blink 0.5s step-end infinite alternate;
+    /* font-size: 15px; */
   }
   .typingEffect-2{
     display: flex;
@@ -335,6 +380,8 @@
     margin:auto ;
     justify-content:center;
     animation: typing2 2s steps(50, end) 2s, blink 0.5s step-end infinite alternate 2s, fadeIn 1s 2s forwards;
+    /* font-size: 12px; */
+
   }
 }
 @media (max-width: 500px){
@@ -342,4 +389,42 @@
     width: 90%; 
     margin-bottom: 1.5em;
   }
+  .textOverlay{
+    width: 90vw;
+  }
+  .typingEffect{
+    font-size: 15px;
+  }
+  .typingEffect-2{
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 400px){
+
+  .textOverlay{
+    width: 90vw;
+  }
+  .typingEffect{
+    font-size: 13px;
+  }
+  .typingEffect-2{
+    font-size: 11px;
+  }
+  .typingTitle{
+    font-size: 25px;
+  }
+}
+@media (max-width: 350px){
+
+  .textOverlay{
+    width: 90vw;
+  }
+  .typingEffect{
+    font-size: 11px;
+  }
+  .typingEffect-2{
+    font-size: 9px;
+  }
+
 }
