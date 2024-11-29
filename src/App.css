@@ -270,6 +270,8 @@
   font-weight: bold; /* Texto en negrita */
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
   transition:  0.3s ease; /* Animación para hover */
+  display: grid;
+  place-items: center;
 }
 
 .btn-flotante:hover {
@@ -282,6 +284,9 @@
 @media (max-width: 1500px) {
   .divArticle2 li a[href^="mailto:"] {
    font-size: 19px; 
+  }
+  .btn-flotante{
+    font-size: 12px;
   }
 }
 @media (max-width: 1400px) {
@@ -331,6 +336,9 @@
   .divArticle2 li a[href^="mailto:"] {
     font-size: 13px; 
    }
+   .btn-flotante{
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -350,7 +358,9 @@
   .typingTitle{
     font-size: 30px;
   }
-  
+  .btn-flotante{
+    font-size: 10px;
+  }
 }
 
 
@@ -398,7 +408,9 @@
   .typingEffect-2{
     font-size: 12px;
   }
-
+  .btn-flotante p{
+    display: none;
+  }
 }
 @media (max-width: 400px){
 

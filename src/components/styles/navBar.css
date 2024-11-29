@@ -32,6 +32,35 @@
     
 }
 
+/* iconos contacto */
+.contact-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 35px;
+    display: flex;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 3vw;
+    height: 5vh;
+    margin: 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+}
+
+/* fin iconos contacto */
+
+
 @media (max-width: 1200px) {
     .logo {
         width: 25vw;
@@ -42,16 +71,33 @@
     .logo {
         width: 30vw;
     }
+    .contact-icon {
+        width: 2vw;
+        height: 4vh;
+        margin: 1vw;
+    
+    }
+    .contact-icon img{
+        width: 100vw;
+        height: 5vh;
+    }
+
 }
 
 @media (max-width: 700px) {
     .logo {
         width: 40vw;
     }
+    .contact-icon {
+        margin: 2vw;
+    }
 }
 
 @media (max-width: 600px) {
     .logo {
         width: 50vw;
+    }
+    .contact-icon {
+        margin: 3vw;
     }
 }

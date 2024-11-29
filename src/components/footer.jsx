@@ -4,7 +4,6 @@ import './styles/footer.css'
 export const Footer = () => {
   return (
     <footer className="footer">
-      <h2 className='typingTitle2'>Nos podes encontrar en:</h2>
       <br/>
       <div className="mapContainer">
         <iframe
