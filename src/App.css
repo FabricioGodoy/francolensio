@@ -346,6 +346,7 @@
     width: 40%; 
     margin-bottom: 1.5em;
     line-height: 1.4;
+    font-size: 15px;
   }
   .divArticle2 {
     width: 35%; 
@@ -364,6 +365,11 @@
 }
 
 
+@media (max-width: 700px){
+  .divArticle {
+    font-size: 12px;
+  }
+}
 @media (max-width: 650px){
   .divArticle {
     width: 47%; 
@@ -402,14 +408,22 @@
     width: 90vw;
   }
   .typingEffect{
-    font-size: 15px;
+    font-size: 17px;
   }
   .typingEffect-2{
-    font-size: 12px;
+    font-size: 14px;
     font-weight:500; 
     margin-top: -15px;
    }
   
+}
+@media (max-width: 450px){
+  .typingEffect{
+    font-size: 14px;
+  }
+  .typingEffect-2{
+    font-size: 12px;
+   }
 }
 @media (max-width: 400px){
 
@@ -432,10 +446,10 @@
     width: 90vw;
   }
   .typingEffect{
-    font-size: 11px;
+    font-size: 13px;
   }
   .typingEffect-2{
-    font-size: 9px;
+    font-size: 10px;
   }
 
 }
