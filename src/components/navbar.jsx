@@ -16,11 +16,11 @@ export const NavBar = () => {
    
     <div className="contact-buttons">
   
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="contact-icon">
+      <a href="https://www.facebook.com/share/sd8ok8dScFDe35aE/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" className="contact-icon">
        <img src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook"></img>
       </a>
     
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="contact-icon">
+      <a href="https://www.instagram.com/simpletecnoapp?igsh=cHc0aWkxNWZoYTd1" target="_blank" rel="noopener noreferrer" className="contact-icon">
        <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram"></img>
       </a>
   

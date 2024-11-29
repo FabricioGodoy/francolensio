@@ -390,10 +390,9 @@
     margin:auto ;
     justify-content:center;
     animation: typing2 2s steps(50, end) 2s, blink 0.5s step-end infinite alternate 2s, fadeIn 1s 2s forwards;
-    /* font-size: 12px; */
-
   }
 }
+
 @media (max-width: 500px){
   .divArticle {
     width: 90%; 
@@ -407,10 +406,10 @@
   }
   .typingEffect-2{
     font-size: 12px;
-  }
-  .btn-flotante p{
-    display: none;
-  }
+    font-weight:500; 
+    margin-top: -15px;
+   }
+  
 }
 @media (max-width: 400px){
 

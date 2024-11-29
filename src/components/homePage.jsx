@@ -129,20 +129,6 @@ export const HomePage = () => {
         'Lunes a Viernes de 14:00hs a 18:30hs'
       ]
     },
-/*     {
-      title: 'Correo electrónico',
-      image: 'https://img.icons8.com/ios/50/mail.png', 
-      services: [
-        'contacto@simple tecno.com.ar'
-      ]
-    },
-    {
-      title: 'Teléfono',
-      image: 'https://img.icons8.com/material-rounded/24/cell-phone.png', 
-      services: [
-        '11 5101 0406'
-      ]
-    } */
   ]
 
   return (
@@ -181,7 +167,6 @@ export const HomePage = () => {
       </div>
       <a href="https://wa.me/+5491151010406" className="btn-flotante" target="_blank" rel="noopener noreferrer">
         <img src="https://img.icons8.com/office/40/whatsapp--v1.png" alt="wpp"></img>
-        <p>contactanos <br/><br/> </p>
       </a>
 
     </div>
