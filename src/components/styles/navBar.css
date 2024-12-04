@@ -59,6 +59,10 @@
 .contact-icon:hover {
     transform: scale(1.1);
 }
+.contact-icon img{
+    width: 2vw;
+    height: 3vh;
+}
 
 /* fin iconos contacto */
 
@@ -81,7 +85,7 @@
     }
     .contact-icon img{
         width: 100vw;
-        height: 5vh;
+        height: 3vh;
     }
 
 }
