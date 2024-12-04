@@ -446,10 +446,23 @@
     width: 90vw;
   }
   .typingEffect{
-    font-size: 13px;
+    font-size: 11px;
   }
   .typingEffect-2{
+    font-size: 9px;
+  }
+
+}
+@media (max-width: 330px){
+
+  .textOverlay{
+    width: 90vw;
+  }
+  .typingEffect{
     font-size: 10px;
+  }
+  .typingEffect-2{
+    font-size: 9px;
   }
 
 }
