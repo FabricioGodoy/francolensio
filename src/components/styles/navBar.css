@@ -52,6 +52,9 @@
     text-decoration: none;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.iconosContactoBN{
+    display: none;
+}
 
 .contact-icon:hover {
     transform: scale(1.1);
@@ -98,5 +101,22 @@
     }
     .contact-icon {
         margin: 3vw;
+    }
+    .iconosContacto{
+        display: none;
+    }
+    .contact-icon .iconosContactoBN{
+        display: flex;
+        width: 7vw;
+        height: 4vh;
+    }
+}
+@media (max-width: 350px) {
+    .contact-buttons {
+        right: 10px;
+    }
+    .contact-icon  .iconosContactoBN{
+        width: 7vw;
+        height: 4vh;
     }
 }
