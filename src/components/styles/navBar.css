@@ -102,21 +102,29 @@
     .contact-icon {
         margin: 3vw;
     }
-    .iconosContacto{
-        display: none;
-    }
     .contact-icon .iconosContactoBN{
         display: flex;
         width: 7vw;
         height: 4vh;
+        background-color: #fff;
+        color: white;
+        border-radius: 35%;
+        margin: 0;
     }
+    .iconosContacto{
+        display: none;
+    }
+    
 }
 @media (max-width: 350px) {
-    .contact-buttons {
+  /*   .contact-buttons {
         right: 10px;
-    }
+        background-color: #fff;
+        color: white;
+    } */
     .contact-icon  .iconosContactoBN{
-        width: 7vw;
+        width: 8vw;
         height: 4vh;
+        margin: 2px;
     }
 }
