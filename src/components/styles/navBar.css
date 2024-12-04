@@ -91,7 +91,7 @@
         width: 40vw;
     }
     .contact-icon {
-        margin: 2vw;
+        margin: 1vw;
     }
 }
 
@@ -100,11 +100,13 @@
         width: 50vw;
     }
     .contact-icon {
-        margin: 3vw;
+        bottom: -5px;
+        right: 15px;
+        gap: 1px;
     }
     .contact-icon .iconosContactoBN{
         display: flex;
-        width: 7vw;
+        width: 5vw;
         height: 4vh;
         border-radius: 35%;
         margin: 0;
@@ -115,17 +117,26 @@
     .correoIconBN{
         height: 5vh !important;
     }
-    
+    .contact-icon {
+        margin: 1.5vw;
+    }
 }
-@media (max-width: 350px) {
-  /*   .contact-buttons {
-        right: 10px;
-        background-color: #fff;
-        color: white;
-    } */
+@media (max-width: 430px) {
+    .contact-buttons {
+        bottom: -5px;
+        right: 15px;
+        gap: 1px;
+
+    }
     .contact-icon  .iconosContactoBN{
-        width: 8vw;
-        height: 4vh;
-        margin: 2px;
+        width: 7vw;
+        height: 3vh;
+        margin: 20px !important;
+    }
+    .correoIconBN{
+        height: 4vh !important;
+    }
+    .contact-icon {
+        margin: 5px 3vw;
     }
 }
