@@ -106,13 +106,14 @@
         display: flex;
         width: 7vw;
         height: 4vh;
-        background-color: #fff;
-        color: white;
         border-radius: 35%;
         margin: 0;
     }
     .iconosContacto{
         display: none;
+    }
+    .correoIconBN{
+        height: 5vh !important;
     }
     
 }
